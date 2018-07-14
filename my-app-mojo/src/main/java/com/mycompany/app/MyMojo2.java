@@ -28,6 +28,7 @@ import java.io.IOException;
 
 @Mojo(name = "touch2")
 @Execute(
+		goal = "touch2",
 		phase = org.apache.maven.plugins.annotations.LifecyclePhase.PROCESS_RESOURCES) 
 public class MyMojo2
     extends AbstractMojo
